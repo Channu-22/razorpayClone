@@ -1,6 +1,18 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.14",
-    "tailwindcss": "^4.1.14"
+    "@tailwindcss/cli": "^4.1.14"
+  },
+ "scripts": {
+  "build": "npx tailwindcss -i ./input.css -o ./output.css --watch",
+  "serve": "start chrome http://127.0.0.1:5500 && live-server --port=5500",
+  "dev": "concurrently \"npm run build\" \"npm run serve\""
+}
+,
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "live-server": "^1.2.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16"
   }
 }

@@ -1,65 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="./output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
     <title>rozarpayClone | channu</title>
-</head>
-<body>
+  </head>
+
+  <!-- ✅ CHANGE 1: Added overflow-x-hidden -->
+  <body class="overflow-x-hidden">
     <nav class="bg-[#02042a]">
-        <div class="mx-auto w-[1080px]  flex items-center justify-between">
+      <div class="mx-auto w-[1080px] flex items-center justify-between">
+        <a href="/" class="cursor-pointer py-7 pr-7">
+          <img src="./Images/logo.svg" alt="" width="120px" height="30px" />
+        </a>
 
-            <a href="/" class="cursor-pointer py-7 pr-7">
-                <img src="./Images/logo.svg" alt=""
-                width="120px"
-                height="30px">
-            </a>
+        <ul class="flex gap-4">
+          <li
+            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
+          >
+            <a href="#" class="">Payments</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
+            ></div>
+          </li>
+          <li
+            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
+          >
+            <a href="#" class="">Banking</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
+            ></div>
+          </li>
 
-            <ul class="flex gap-4">
-                <li class=" text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
-                    <a href="#" class="">Payments</a>
-                    <div class="absolute bottom-0 w-full h-1  bg-[#2b84ea] hidden group-hover:block "></div>
+          <li
+            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
+          >
+            <a href="#" class="">Corporate Card</a>
+          </li>
+          <li
+            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
+          >
+            <a href="#" class="">Payroll</a>
+          </li>
 
-                </li>
-                <li class=" text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
-                    <a href="#" class="">Banking</a>
-                    <div class="absolute bottom-0 w-full h-1  bg-[#2b84ea] hidden group-hover:block "></div>
+          <li
+            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
+          >
+            <a href="#" class="">Resources</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
+            ></div>
+          </li>
+          <li
+            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
+          >
+            <a href="#" class="">Support</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
+            ></div>
+          </li>
+          <li
+            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
+          >
+            <a href="#" class="">Pricing</a>
+            <div
+              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
+            ></div>
+          </li>
+        </ul>
 
-                </li>
-
-                <li class=" text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
-                    <a href="#" class="">Corporate Card</a>
-                </li>
-                <li class=" text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
-                    <a href="#" class="">Payroll</a>
-                </li>
-
-                <li class=" text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
-                    <a href="#" class="">Resources</a>
-                    <div class="absolute bottom-0 w-full h-1  bg-[#2b84ea] hidden group-hover:block "></div>
-                </li>
-                 <li class=" text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
-                    <a href="#" class="">Support</a>
-                    <div class="absolute bottom-0 w-full h-1  bg-[#2b84ea] hidden group-hover:block "></div>
-                </li>
-                 <li class=" text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
-                    <a href="#" class="">Pricing</a>
-                    <div class="absolute bottom-0 w-full h-1  bg-[#2b84ea] hidden group-hover:block "></div>
-                </li>
-                
-            </ul>
-
-            <div class="flex gap-4">
-                <img src="./Images/india-flag.svg" alt=""/>
-                <button class="text-white font-bold px-5 py-2 border-[1px] border-[#2b84ea] rounded-sm">Log in</button>
-                <button class="text-[#2b84ea] bg-white font-bold px-5 py-2  rounded-sm">Sign Up</button>
-            </div>
+        <div class="flex gap-4">
+          <img src="./Images/india-flag.svg" alt="" />
+          <button
+            class="text-white font-bold px-5 py-2 border-[1px] border-[#2b84ea] rounded-sm"
+          >
+            Log in
+          </button>
+          <button
+            class="text-[#2b84ea] bg-white font-bold px-5 py-2 rounded-sm"
+          >
+            Sign Up
+          </button>
         </div>
-        
+      </div>
     </nav>
 
-    
-    
-</body>
+    <nav class="relative w-full text-white py-10 bg-[#02042a] overflow-hidden">
+      <div class="w-[1080px] flex justify-between items-center m-auto">
+        <!-- LEFT CONTENT -->
+        <div class="w-[450px] space-y-10">
+          <h1 class="font-bold text-5xl font-sans">
+            Power your finance, grow your business
+          </h1>
+          <div class="w-10 h-1 bg-[#61cea6] mt-5"></div>
+          <p class="text-[#818597] text-[18px]">
+            Accept payments from customers. Automate payouts to vendors &
+            employees. Never run out of working capital.
+          </p>
+          <button
+            class="font-bold bg-[#2b84ea] px-3 py-3 rounded-md hover:bg-[#0b72e7] transition-all duration-1000 cursor-pointer"
+          >
+            Sign Up Now
+          </button>
+        </div>
+
+        <!-- RIGHT IMAGE PARt -->
+        <div class="w-[600px]">
+          <img
+            src="./Images/hero-illustration.jpg"
+            alt=""
+            class="w-full object-fill"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <!-- SHAPE PART -->
+    <div class="absolute w-full left-0 right-0">
+      <img
+        src="./Images/hero-shape.svg"
+        alt=""
+        class="w-full object-cover"
+      />
+    </div>
+  </body>
 </html>
