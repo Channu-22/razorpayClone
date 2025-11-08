@@ -1,128 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
-    <title>rozarpayClone | channu</title>
-  </head>
 
-  <!-- ✅ CHANGE 1: Added overflow-x-hidden -->
-  <body class="overflow-x-hidden">
-    <nav class="bg-[#02042a]">
-      <div class="mx-auto w-[1080px] flex items-center justify-between">
-        <a href="/" class="cursor-pointer py-7 pr-7">
-          <img src="./Images/logo.svg" alt="" width="120px" height="30px" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./output.css" rel="stylesheet" />
 
-        <ul class="flex gap-4">
-          <li
-            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
-          >
-            <a href="#" class="">Payments</a>
-            <div
-              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
-            ></div>
-          </li>
-          <li
-            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
-          >
-            <a href="#" class="">Banking</a>
-            <div
-              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
-            ></div>
-          </li>
+  <title>rozarpayClone | channu</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-          <li
-            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
-          >
-            <a href="#" class="">Corporate Card</a>
-          </li>
-          <li
-            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
-          >
-            <a href="#" class="">Payroll</a>
-          </li>
+</head>
 
-          <li
-            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
-          >
-            <a href="#" class="">Resources</a>
-            <div
-              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
-            ></div>
-          </li>
-          <li
-            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
-          >
-            <a href="#" class="">Support</a>
-            <div
-              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
-            ></div>
-          </li>
-          <li
-            class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer"
-          >
-            <a href="#" class="">Pricing</a>
-            <div
-              class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"
-            ></div>
-          </li>
-        </ul>
+<!-- ✅ CHANGE 1: Added overflow-x-hidden -->
 
-        <div class="flex gap-4">
-          <img src="./Images/india-flag.svg" alt="" />
-          <button
-            class="text-white font-bold px-5 py-2 border-[1px] border-[#2b84ea] rounded-sm"
-          >
-            Log in
-          </button>
-          <button
-            class="text-[#2b84ea] bg-white font-bold px-5 py-2 rounded-sm"
-          >
-            Sign Up
-          </button>
-        </div>
+<body class="overflow-x-hidden">
+  <nav class="bg-[#02042a]">
+    <div class="mx-auto w-[1080px] flex items-center justify-between">
+      <a href="/" class="cursor-pointer py-7 pr-7">
+        <img src="./Images/logo.svg" alt="" width="120px" height="30px" />
+      </a>
+
+      <ul class="flex gap-4">
+        <li class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
+          <a href="#" class="">Payments</a>
+          <div class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"></div>
+        </li>
+        <li class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
+          <a href="#" class="">Banking</a>
+          <div class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"></div>
+        </li>
+
+        <li class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
+          <a href="#" class="">Corporate Card</a>
+        </li>
+        <li class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
+          <a href="#" class="">Payroll</a>
+        </li>
+
+        <li class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
+          <a href="#" class="">Resources</a>
+          <div class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"></div>
+        </li>
+        <li class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
+          <a href="#" class="">Support</a>
+          <div class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"></div>
+        </li>
+        <li class="text-white hover:text-[#2b84ea] py-7 transition-all duration-300 relative group cursor-pointer">
+          <a href="#" class="">Pricing</a>
+          <div class="absolute bottom-0 w-full h-1 bg-[#2b84ea] hidden group-hover:block"></div>
+        </li>
+      </ul>
+
+      <div class="flex gap-4">
+        <img src="./Images/india-flag.svg" alt="" />
+        <button class="text-white font-bold px-5 py-2 border-[1px] border-[#2b84ea] rounded-sm">
+          Log in
+        </button>
+        <button class="text-[#2b84ea] bg-white font-bold px-5 py-2 rounded-sm">
+          Sign Up
+        </button>
       </div>
-    </nav>
-
-    <nav class="relative w-full text-white py-10 bg-[#02042a] overflow-hidden">
-      <div class="w-[1080px] flex justify-between items-center m-auto">
-        <!-- LEFT CONTENT -->
-        <div class="w-[450px] space-y-10">
-          <h1 class="font-bold text-5xl font-sans">
-            Power your finance, grow your business
-          </h1>
-          <div class="w-10 h-1 bg-[#61cea6] mt-5"></div>
-          <p class="text-[#818597] text-[18px]">
-            Accept payments from customers. Automate payouts to vendors &
-            employees. Never run out of working capital.
-          </p>
-          <button
-            class="font-bold bg-[#2b84ea] px-3 py-3 rounded-md hover:bg-[#0b72e7] transition-all duration-1000 cursor-pointer"
-          >
-            Sign Up Now
-          </button>
-        </div>
-
-        <!-- RIGHT IMAGE PARt -->
-        <div class="w-[600px]">
-          <img
-            src="./Images/hero-illustration.jpg"
-            alt=""
-            class="w-full object-fill"
-          />
-        </div>
-      </div>
-    </nav>
-
-    <!-- SHAPE PART -->
-    <div class="absolute w-full left-0 right-0">
-      <img
-        src="./Images/hero-shape.svg"
-        alt=""
-        class="w-full object-cover"
-      />
     </div>
-  </body>
+  </nav>
+
+  <nav class="relative w-full text-white py-10 bg-[#02042a]">
+    <div class="w-[1080px] flex justify-between items-center m-auto">
+      <!-- LEFT CONTENT -->
+      <div class="w-[450px] space-y-10">
+        <h1 class="font-bold text-5xl font-sans">
+          Power your finance, grow your business
+        </h1>
+        <div class="w-10 h-1 bg-[#61cea6] mt-5"></div>
+        <p class="text-[#818597] text-[18px]">
+          Accept payments from customers. Automate payouts to vendors &
+          employees. Never run out of working capital.
+        </p>
+        <button
+          class="font-bold bg-[#2b84ea] px-3 py-3 rounded-md hover:bg-[#0b72e7] transition-all duration-1000 cursor-pointer">
+          Sign Up Now
+        </button>
+      </div>
+
+      <!-- RIGHT IMAGE PARt -->
+      <div class="w-[600px]">
+        <img src="./Images/hero-illustration.jpg" alt="" class="w-full object-fill" />
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHAPE PART -->
+  <div class="absolute w-[103%] left-0 right-0">
+    <img src="./Images/hero-shape.svg" alt="" class="w-full object-cover" />
+  </div>
+
+  <section class="relative mt-[150px] overflow-hidden">
+    <img src="./Images/feature-section1-dottedrows.png" alt=""
+      class="w-[233px] h-[167px] absolute -top-[8rem] left-[10rem]" />
+    <img src="./Images/feature-section1-dottedrows.png" alt=""
+      class="w-[233px] h-[167px] absolute -top-[2rem] right-0 rotate-180" />
+    <div class="w-[83%] max-w-[1080px] mx-auto pt-4 relative">
+      <h1 class="text-center font-extrabold text-2xl leading-1.5">
+        Accept Payments with Razorpay Payment Suite
+      </h1>
+      <div class="w-10 h-1 bg-[#61cea6] mx-auto mt-6 mb-10"></div>
+      <!-- CONTENT BOX -->
+      <div
+        class="w-full min-h-[520px] flex justify-between items-center bg-white px-8 py-10 border border-gray-100 rounded-md">
+        <!-- LEFT CONTENT BOX -->
+        <div class=" w-[1080px] flex flex-col justify-between gap-16">
+          <h1 class="font-bold font-[mulish] text-3xl max-w-[520px]">
+            Supercharge your business with the all‑powerful
+            <span class="text-[#2b84ea]">Payment Gateway</span>
+          </h1>
+          <ul class="flex flex-col gap-2">
+            <li class="flex items-center gap-2">
+              <i data-feather="check" class="text-[#61cea6]"></i>
+              <span>100+ Payment Methods</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-feather="check" class="text-[#61cea6]"></i>
+              <span>Industry Leading Success Rate</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-feather="check" class="text-[#61cea6]"></i>
+              <span>Superior Checkout Experience</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-feather="check" class="text-[#61cea6]"></i>
+              <span>Easy to Integrate</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-feather="check" class="text-[#61cea6]"></i>
+              <span>Instant Settlements from day 1</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-feather="check" class="text-[#61cea6]"></i>
+              <span>In-depth Reporting and Insights</span>
+            </li>
+            <div class="flex justify-between items-center mt-16 w-[300px]">
+
+              <!-- 🔹 Sign Up Button -->
+              <button
+                class="flex items-center gap-2 font-bold text-white bg-[#2b84ea] hover:bg-[#0b72e7] rounded-md px-4 py-3 cursor-pointer transition-all duration-300">
+                Sign Up Now
+                <i data-feather="arrow-right" class="w-5 h-5 text-white"></i>
+              </button>
+
+              <!-- 🔹 Know More Link -->
+              <div class="flex items-center group">
+                <a href="#" class="font-bold text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500">
+                  Know More
+                </a>
+                <i data-feather="chevron-right"
+                  class="w-5 h-5 text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500"></i>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <img src="./Images/payment-suite.png" alt="" class="absolute w-[600px] right-0 bottom-0" />
+      </div>
+    </div>
+  </section>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
 </html>

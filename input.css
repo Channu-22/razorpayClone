@@ -1,4 +1,8 @@
 @import "tailwindcss";
-h1{
-    font-family: 'Times New Roman', Times, serif;
-}
+  h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700; /* optional: choose 400, 600, 700, or 800 */
+  }
+  li,button{
+    font-family: 'Mulish', sans-serif;
+  }
