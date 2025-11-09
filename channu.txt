@@ -1,0 +1,113 @@
+ <div class="w-full relative">
+      <img src="./Images/payment-link-icon.svg" alt="" class="absolute bg-[#2b84ea] right-3 top-3 w-8 h-8 rounded-full  z-10 transition-all duration-1000">
+      <!-- BOX SHAPE -->
+       <svg 
+          viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" 
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute z-20 featureCardSVG transition-all duration-200"
+          style="stroke-opacity: 0.15">
+         <path d="m 0 6 
+              a 6 6 0 0 1 6 -6 
+              h 250.32501220703125 
+              a 16 16 0 0 1 11 5 
+              l 77 77 
+              a 16 16 0 0 1 5 11 
+              v 126 
+              a 6 6 0 0 1 -6 6 
+              h -337.32501220703125 
+              a 6 6 0 0 1 -6 -6 
+              z" fill="#fff">
+          </path>
+      </svg> 
+      <div class="z-50 w-full h-full absolute flex flex-col justify-between pl-5 py-6 pr-8 gap-4">
+        <div class="flex flex-col gap-2">
+          <h1 class="font-bold text-[#162f56] text-[1.376rem]">Subscriptions</h1>
+          <p class="text-[#818597]">Subscription plans with automated recurring transactions on various payment modes.</p>
+        </div>
+      
+      <div class="flex items-center group">
+        <a href="#" class="font-bold text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500">
+          Know More
+        </a>
+        <i data-feather="chevron-right"
+          class="w-5 h-5 text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500"></i>
+      </div>
+      </div>
+
+    </div>
+    <!-- BOX5 -->
+     <div class="w-full relative">
+      <img src="./Images/payment-link-icon.svg" alt="" class="absolute bg-[#2b84ea] right-3 top-3 w-8 h-8 rounded-full  z-10 transition-all duration-1000">
+      <!-- BOX SHAPE -->
+       <svg 
+          viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" 
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute z-20 featureCardSVG transition-all duration-200"
+          style="stroke-opacity: 0.15">
+         <path d="m 0 6 
+              a 6 6 0 0 1 6 -6 
+              h 250.32501220703125 
+              a 16 16 0 0 1 11 5 
+              l 77 77 
+              a 16 16 0 0 1 5 11 
+              v 126 
+              a 6 6 0 0 1 -6 6 
+              h -337.32501220703125 
+              a 6 6 0 0 1 -6 -6 
+              z" fill="#fff">
+          </path>
+      </svg> 
+      <div class="z-50 w-full h-full absolute flex flex-col justify-between pl-5 py-6 pr-8 gap-4">
+        <div class="flex flex-col gap-2">
+          <h1 class="font-bold text-[#162f56] text-[1.376rem]">Route</h1>
+          <p class="text-[#818597]">Split incoming payments auto- matically to vendor’s accounts, manage marketplace money flow...</p>
+        </div>
+      
+      <div class="flex items-center group">
+        <a href="#" class="font-bold text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500">
+          Know More
+        </a>
+        <i data-feather="chevron-right"
+          class="w-5 h-5 text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500"></i>
+      </div>
+      </div>
+
+    </div>
+    <!-- BOX6 -->
+     <div class="w-full relative">
+      <img src="./Images/payment-link-icon.svg" alt="" class="absolute bg-[#2b84ea] right-3 top-3 w-8 h-8 rounded-full  z-10 transition-all duration-1000">
+      <!-- BOX SHAPE -->
+       <svg 
+          viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" 
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute z-20 featureCardSVG transition-all duration-200"
+          style="stroke-opacity: 0.15">
+         <path d="m 0 6 
+              a 6 6 0 0 1 6 -6 
+              h 250.32501220703125 
+              a 16 16 0 0 1 11 5 
+              l 77 77 
+              a 16 16 0 0 1 5 11 
+              v 126 
+              a 6 6 0 0 1 -6 6 
+              h -337.32501220703125 
+              a 6 6 0 0 1 -6 -6 
+              z" fill="#fff">
+          </path>
+      </svg> 
+      <div class="z-50 w-full h-full absolute flex flex-col justify-between pl-5 py-6 pr-8 gap-4">
+        <div class="flex flex-col gap-2">
+          <h1 class="font-bold text-[#162f56] text-[1.376rem]">Smart Collect</h1>
+          <p class="text-[#818597]">Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using Virtual Accounts & UPI-IDs</p>
+        </div>
+      
+      <div class="flex items-center group">
+        <a href="#" class="font-bold text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500">
+          Know More
+        </a>
+        <i data-feather="chevron-right"
+          class="w-5 h-5 text-[#4b94ed] group-hover:text-[#0b72e7] transition-all duration-500"></i>
+      </div>
+      </div>
+
+    </div> 
